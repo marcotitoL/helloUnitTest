@@ -1,0 +1,33 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=db;User=user;Password=pass;"
+  },
+  "JWT": {
+    "key": "HELLOAPI1234567890",
+    "Issuer": "helloAPI",
+    "Audience": "helloAPIUser",
+    "DurationInMinutes": 15
+  },
+  "Stripe": {
+    "Publishable_key": "pk_stripe",
+    "Secret_key": "sk_stripe"
+  },
+  "Sendgrid": {
+    "Api_key": "api_key",
+    "Mailfrom": "mailfrom@email.com",
+    "Mailfromname": "John Doe"
+  },
+  "Twilio": {
+    "SID": "sid",
+    "Auth_token": "auth",
+    "Phonenumber": "+11112223344",
+    "VerifiedNumbers": ["+12345678899"]
+  }
+}
