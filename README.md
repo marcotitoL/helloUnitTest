@@ -1,4 +1,4 @@
-# helloAPI.test
+# helloUnitTest
 
 this is just a simple test i made for the controller that handles the products category for the helloAPI project, this controller was just scaffolded initially and just updated
 to match what i need. 
@@ -18,7 +18,7 @@ ___________
 
 1. Clone this repo
 ```
-git clone https://github.com/marcotitoL/helloAPI.test.git
+git clone https://github.com/marcotitoL/helloUnitTest.git
 ```
 2. edit **helloAPI.Test.csproj** file, update the value of Include in &lt;ItemGroup>&lt;ProjectReference>
    
