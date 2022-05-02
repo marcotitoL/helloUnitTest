@@ -15,7 +15,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace helloAPI.Test;
 
-public class ProductsCategoryTest : IClassFixture<DBFixture>
+
+[Collection("Database collection")]
+public class ProductsCategoryTest
 {
     private readonly ApplicationDbContext applicationDbContext;
 
